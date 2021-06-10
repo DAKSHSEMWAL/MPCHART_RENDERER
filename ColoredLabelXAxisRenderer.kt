@@ -1,5 +1,3 @@
-package com.google.research.health.features.utils
-
 import android.content.Context
 import android.graphics.Canvas
 import android.graphics.Color
@@ -11,7 +9,6 @@ import com.github.mikephil.charting.utils.MPPointF
 import com.github.mikephil.charting.utils.Transformer
 import com.github.mikephil.charting.utils.Utils
 import com.github.mikephil.charting.utils.ViewPortHandler
-import com.google.research.health.R
 import com.google.research.health.core.Common.getWeekNumber
 import java.util.*
 

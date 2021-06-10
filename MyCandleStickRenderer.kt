@@ -1,5 +1,3 @@
-package com.google.research.health.features.utils
-
 import android.graphics.Canvas
 import android.graphics.Paint
 import com.github.mikephil.charting.animation.ChartAnimator
