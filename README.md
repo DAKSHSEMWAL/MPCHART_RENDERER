@@ -171,12 +171,13 @@ Two Highlight a particular point on the X Axis Use
 
 **ColoredLabelXAxisRenderer**
 
-and set it to chart as
+and consume it in Java as
 
 ```
 mChart.setXAxisRenderer(new ColoredLabelXAxisRenderer(mChart.getViewPortHandler(), mChart.getXAxis(), mChart.getTransformer(AxisDependency.LEFT), colors))
 ```
-in Java and 
+
+and in Kotlin as
 
 ```
 binding.bpChart.apply {
@@ -186,4 +187,3 @@ binding.bpChart.apply {
             
         }
 ```
-in Kotlin
